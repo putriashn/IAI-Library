@@ -66,7 +66,7 @@ if(isset($_POST['tambah'])) {
                 $optionText = $pecahBuku['title'];
             
                 if ($pecahBuku['stock'] == 0) {
-                    $optionText .= ' (Buku sedang dipinjam)';
+                    $optionText .= ' (Buku tidak tersedia)';
                 } 
             
                 if ($pecahBuku['stock'] > 0) {

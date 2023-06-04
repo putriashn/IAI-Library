@@ -1,5 +1,5 @@
 <?php 
-require_once '../config/koneksi.php';
+require_once '../config/koneksi2.php';
 
 $filename = "anggota_excel-(". date('d-m-Y') .").xls";
 

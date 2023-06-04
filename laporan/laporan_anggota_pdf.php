@@ -1,6 +1,6 @@
 <?php 
 ob_start();
-require_once '../config/koneksi.php';
+require_once '../config/koneksi2.php';
 require_once '../assets/vendor/autoload.php';
 
 use Spipu\Html2Pdf\Html2Pdf;

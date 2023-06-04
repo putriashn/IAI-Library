@@ -72,9 +72,9 @@ $aksi = @$_GET['aksi'];
         <script src="js/fontawesomeall.min.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <nav class="sb-topnav navbar navbar-expand navbar-dark" style="background-color: #092448;">
-            <a class="navbar-brand" href="?p=transaksi" style="font-size: 30px;"><strong>Book-ing</strong></a>
+        <nav class="sb-topnav navbar navbar-expand navbar-dark padding-10" style="background-color: #092448;">
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
+            <a class="navbar-brand" href="?p=transaksi" style="font-size: 30px;"><strong>Book-ing</strong></a>
             
         </nav>
         <div id="layoutSidenav">
@@ -108,7 +108,7 @@ $aksi = @$_GET['aksi'];
             </div>
             <div id="layoutSidenav_content">
                 <main>
-                    <marquee behavior="scroll" class="btn btn-dark" style="background-color: #576CBD">Selamat Datang <b><?= $_SESSION['login']['username']; ?></b> di Book-ing: Aplikasi Administratif Peminjaman Buku</marquee>
+                    <marquee behavior="scroll" class="btn btn-dark" style="background-color: #576CBD">Selamat Datang <b><?= $_SESSION['login']['fullname']; ?></b> di Book-ing: Aplikasi Administratif Peminjaman Buku</marquee>
                     <div class="container-fluid">
                         <!-- <h1 class="mt-4">Static Navigation</h1> -->
                     <?php 
