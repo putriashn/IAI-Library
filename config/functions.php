@@ -1,5 +1,5 @@
 <?php 
-require_once 'koneksi.php';
+require_once 'koneksi2.php';
 
 function query($sql) {
     global $conn;

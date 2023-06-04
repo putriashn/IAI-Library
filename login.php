@@ -1,6 +1,6 @@
 <?php 
 session_start();
-require_once 'config/koneksi.php';
+require_once 'config/koneksi2.php';
 
 if(isset($_SESSION['login'])) {
     header("Location: index.php");

@@ -1,5 +1,5 @@
 <?php 
-require_once 'config/koneksi.php';
+require_once 'config/koneksi2.php';
 require_once 'config/functions.php';
 
 if(isset($_POST['regis'])) {
